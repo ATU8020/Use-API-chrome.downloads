@@ -1,4 +1,4 @@
-# Use-API-chrome.downloads
+# Target
 The purpose of this project is to use the API chrome.downloads
 
 # node-modules
