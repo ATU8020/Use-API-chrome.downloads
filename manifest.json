@@ -49,7 +49,7 @@
 			],
 			"js":
 			[
-				"/ATU/contentScript.js"
+				"contentScript.js"
 			]
 		}
 	]
