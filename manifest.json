@@ -1,0 +1,56 @@
+{
+	"name": "Comeback Chrome Extension",
+	"description": "Target : Access File Local",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background":
+	{
+		"service_worker": "background.js"
+	},
+	"permissions":
+	[
+		"storage",
+		"activeTab",
+		"scripting",
+		"downloads",
+		"contextMenus",
+		"tabs",
+		"scripting"
+	],
+	"action":
+	{
+		"default_popup": "popup.html",
+		"default_icon":
+		{
+			"16": "/images/folders16.png",
+			"32": "/images/folders32.png",
+			"64": "/images/folders64.png",
+			"128": "/images/folders128.png"
+		}
+	},
+	"options_page": "options.html",
+	"icons":
+	{
+		"16": "/images/folders16.png",
+		"32": "/images/folders32.png",
+		"64": "/images/folders64.png",
+		"128": "/images/folders128.png"
+	},
+	"host_permissions":
+	[
+		"https://www.oxfordlearnersdictionaries.com/definition/english/*"
+	],
+	"content_scripts":
+	[
+		{
+			"matches":
+			[
+				"https://www.oxfordlearnersdictionaries.com/definition/english/*"
+			],
+			"js":
+			[
+				"/ATU/contentScript.js"
+			]
+		}
+	]
+}

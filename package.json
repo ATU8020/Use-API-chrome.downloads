@@ -1,0 +1,7 @@
+{
+	"name": "stepSecond_ChromeExtension",
+	"version": "1.0.0",
+	"dependencies": {
+		"@types/chrome": "^0.0.171"
+	}
+}
