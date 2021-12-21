@@ -19,23 +19,9 @@
 	],
 	"action":
 	{
-		"default_popup": "popup.html",
-		"default_icon":
-		{
-			"16": "/images/folders16.png",
-			"32": "/images/folders32.png",
-			"64": "/images/folders64.png",
-			"128": "/images/folders128.png"
-		}
+		"default_popup": "popup.html"
 	},
 	"options_page": "options.html",
-	"icons":
-	{
-		"16": "/images/folders16.png",
-		"32": "/images/folders32.png",
-		"64": "/images/folders64.png",
-		"128": "/images/folders128.png"
-	},
 	"host_permissions":
 	[
 		"https://www.oxfordlearnersdictionaries.com/definition/english/*"
